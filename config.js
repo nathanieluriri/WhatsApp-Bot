@@ -18,7 +18,7 @@ const pluginsConfig = {
     updateOnRemove: false,
   },
   tagEveryone: {
-    membersLimit: 100,
+    membersLimit: 300,
     trigger: "all",
   },
 };
