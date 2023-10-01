@@ -19,7 +19,7 @@ class TagEveryone {
   async process(key, message) {
     const text = this.#getText(key, message);
       //added natbot to @
-    if (!text.toLowerCase().includes("@natbot" + this.#trigger)) return;
+    if (!text.toLowerCase().includes("@natbot " + this.#trigger)) return;
 
     try {
       const grp = await this.#socket.groupMetadata(key.remoteJid);

@@ -3,7 +3,7 @@
 
 const botConfig = {
   authFolder: "auth",
-  selfReply: false,
+  selfReply: true,
   logMessages: true,
 };
 
@@ -18,7 +18,7 @@ const pluginsConfig = {
     updateOnRemove: false,
   },
   tagEveryone: {
-    membersLimit: 300,
+    membersLimit: 500,
     trigger: "all",
   },
 };
